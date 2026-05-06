@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Prabhat Developer</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<!-- NAVBAR -->
+<header>
+    <h2>Prabhat Dev</h2>
+    <nav>
+        <a href="#">Home</a>
+        <a href="#about">About</a>
+        <a href="#services">Services</a>
+        <a href="#contact">Contact</a>
+    </nav>
+</header>
+
+<!-- HERO SECTION -->
+<section class="hero">
+    <h1>I Build Websites 🚀</h1>
+    <p>Beginner → Future Senior Developer</p>
+    <button onclick="welcome()">Click Me</button>
+</section>
+
+<!-- ABOUT -->
+<section id="about">
+    <h2>About Me</h2>
+    <p>
+        I am learning web development from zero level.
+        My goal is to become a professional developer.
+    </p>
+</section>
+
+<!-- SERVICES -->
+<section id="services">
+    <h2>My Services</h2>
+
+    <div class="cards">
+        <div class="card">Website Design</div>
+        <div class="card">Frontend Development</div>
+        <div class="card">Future Full Stack</div>
+    </div>
+</section>
+
+<!-- CONTACT -->
+<section id="contact">
+    <h2>Contact Me</h2>
+    <input type="text" placeholder="Your Name">
+    <input type="email" placeholder="Email">
+    <button>Send</button>
+</section>
+
+<!-- FOOTER -->
+<footer>
+    <p>© 2026 Prabhat Developer</p>
+</footer>
+
+<script src="script.js"></script>
+
+</body>
+</html>
